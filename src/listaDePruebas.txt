@@ -1,0 +1,18 @@
+===============
+Empieza sin puntos ---> "Love - Love"
+Jugador 1 marca un punto ---> "15 - 0"
+Jugador 1 marca 2 veces un punto ---> "30 - 0"
+Jugador 1 marca 3 veces un punto ---> "40 - 0"
+
+Jugador 2 marca un punto ---> "0 - 15"
+Jugador 2 marca 2 veces un punto ---> "0 - 30"
+Jugador 2 marca 3 veces un punto ---> "0 - 40"
+
+Jugador 1 marca 3 veces y Jugador 2 marca 3 ---> "Deuce"
+Estando en Deuce si marca Jugador 1 ---> "Advantage for 1"
+Estando en Deuce si marca Jugador 2 ---> "Advantage for 2"
+
+Luego el caso del Game (ganar set)
+-
+-
+-

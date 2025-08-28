@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-08-28T14:19:22.000Z",
+      "message": "agregando una las primera tres pruebas de tenis que seria los dos en cero, el jugador uno a cer, el jugador 1 dos a cero",
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 65,
+      "additions": 65,
+      "deletions": 0,
+      "date": "2025-08-28"
+    },
+    "coverage": 90,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
