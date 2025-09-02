@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b379e47a80420fabe472babb9dcd53ab055cac32",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-09-02T02:46:12.000Z",
       "message": "feat: agregandor el feat de el jugador 2 anotando 3 puntos y el jugador 1 no anota 0 - 3",
-      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/b379e47a80420fabe472babb9dcd53ab055cac32"
     },
     "stats": {
       "total": 12,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-09-02T02:53:52.000Z",
+      "message": "feat: cuando los dos jugadores anotan 3 puntos devuelve deuce",
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 24,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 95.45,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

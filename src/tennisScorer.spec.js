@@ -48,4 +48,17 @@ describe("TennisScorer", () => {
         score.player2Scores();
         expect(score.showScore()).toEqual("Love - 40");
     });
+
+        it("player 1 y player 2 anotan 3 puntos los dos 3 - 3 ", () => {
+        const score = new TennisScorer();
+        score.player1Scores();
+        score.player1Scores();
+        score.player1Scores();
+        score.player2Scores();
+        score.player2Scores();
+        score.player2Scores();
+        expect(score.showScore()).toEqual("Deuce");
+    });
+
+
 });
