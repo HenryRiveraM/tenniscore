@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d2fa9be89a62319a5a180eae3a354934330a8d84",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-09-02T02:31:17.000Z",
       "message": "feat : el juegador 2 anota y el jugador uno no",
-      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/d2fa9be89a62319a5a180eae3a354934330a8d84"
     },
     "stats": {
       "total": 10,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-09-02T02:41:31.000Z",
+      "message": "feat: agregandologica de cuando el jugador 2 anota dos puntos y el jugador 1 no anota nada 0-2",
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
