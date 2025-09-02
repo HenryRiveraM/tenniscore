@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d6f716ca30a9d54040991247023b05ca809cac01",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-09-02T02:53:52.000Z",
       "message": "feat: cuando los dos jugadores anotan 3 puntos devuelve deuce",
-      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/d6f716ca30a9d54040991247023b05ca809cac01"
     },
     "stats": {
       "total": 24,
@@ -129,6 +129,25 @@
     },
     "coverage": 95.45,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-09-02T03:01:00.000Z",
+      "message": "feat: agregandola logica de cuando estan en empate y uno de los jugandores rompe el empate",
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 20,
+      "deletions": 1,
+      "date": "2025-09-02"
+    },
+    "coverage": 92.59,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }

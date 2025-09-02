@@ -6,6 +6,15 @@ class TennisScorer {
 
     showScore() {
 
+        // ---- Caso Advantage ----
+        if (this.player1Points >= 3 && this.player2Points >= 3) {
+            if (this.player1Points === this.player2Points + 1) {
+                return "Advantage for 1";
+            } else if (this.player2Points === this.player1Points + 1) {
+                return "Advantage for 2";
+            }
+        }
+
         //logica cuando estan en deuce
         if (this.player1Points === 3 && this.player2Points === 3) {
             return "Deuce";
