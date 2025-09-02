@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f901c19db6b8746c8fe6206552d862ed753a2d21",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-08-28T14:29:57.000Z",
       "message": "fix: mejoras dela prueba uno",
-      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/f901c19db6b8746c8fe6206552d862ed753a2d21"
     },
     "stats": {
       "total": 17,
@@ -53,6 +53,25 @@
     },
     "coverage": 91.67,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-09-02T02:31:17.000Z",
+      "message": "feat : el juegador 2 anota y el jugador uno no",
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
