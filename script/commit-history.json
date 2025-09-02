@@ -171,17 +171,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d3c0b6515c9e7a6f109e9226c3e1f27ce91ac704",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-09-02T03:05:02.000Z",
       "message": "feat: agregando la logica de uno de los dos judadores gana",
-      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/d3c0b6515c9e7a6f109e9226c3e1f27ce91ac704"
     },
     "stats": {
       "total": 26,
       "additions": 26,
       "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 96.55,
+    "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-09-02T03:18:21.000Z",
+      "message": "feat: agragando la parte del index",
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 58,
+      "additions": 40,
+      "deletions": 18,
       "date": "2025-09-02"
     },
     "coverage": 96.55,

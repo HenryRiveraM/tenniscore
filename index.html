@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Marcador de Tenis</title>
+</head>
+<body>
+  <h1>Marcador de Tenis</h1>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+  <div>
+    <button onclick="puntoJugador1()">Punto Jugador 1</button>
+    <button onclick="puntoJugador2()">Punto Jugador 2</button>
+  </div>
+
+  <h2 id="marcador">Love - Love</h2>
+
+<script type="module">
+  import { TennisScorer } from "./src/tennisScorer.js";
+
+  const score = new TennisScorer();
+
+  function puntoJugador1() {
+    score.player1Scores();
+    actualizarMarcador();
+  }
+
+  function puntoJugador2() {
+    score.player2Scores();
+    actualizarMarcador();
+  }
+
+  function actualizarMarcador() {
+    document.getElementById("marcador").innerText = score.showScore();
+  }
+
+  // Exponer funciones para los botones
+  window.puntoJugador1 = puntoJugador1;
+  window.puntoJugador2 = puntoJugador2;
+</script>
+</body>
 </html>
