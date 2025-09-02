@@ -6,6 +6,14 @@ class TennisScorer {
 
     showScore() {
 
+        // ---- Caso Game ----
+        if ((this.player1Points >= 4 || this.player2Points >= 4) &&
+            Math.abs(this.player1Points - this.player2Points) >= 2) {
+            return this.player1Points > this.player2Points
+                ? "Game for 1"
+                : "Game for 2";
+        }
+
         // ---- Caso Advantage ----
         if (this.player1Points >= 3 && this.player2Points >= 3) {
             if (this.player1Points === this.player2Points + 1) {

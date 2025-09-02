@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ba8ff2936eb9686332ab0e30d2236126b356eff2",
     "author": "Henry Alejandro Rivera Mendez",
     "commit": {
       "date": "2025-09-02T03:02:43.000Z",
       "message": "feat: agregandola logica de cuando estan en empate y uno de los jugandores rompe el empate",
-      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/ba8ff2936eb9686332ab0e30d2236126b356eff2"
     },
     "stats": {
       "total": 10,
@@ -167,6 +167,25 @@
     },
     "coverage": 96.3,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Henry Alejandro Rivera Mendez",
+    "commit": {
+      "date": "2025-09-02T03:05:02.000Z",
+      "message": "feat: agregando la logica de uno de los dos judadores gana",
+      "url": "https://github.com/HenryRiveraM/tenniscore/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 26,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 96.55,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
